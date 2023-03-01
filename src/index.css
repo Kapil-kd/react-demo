@@ -12,7 +12,7 @@ body{
 .form{
   max-width: 500px;
   width: 100%;
-  background-color: rgba(31, 31, 143, 0.849);
+  background-color: rgba(80, 80, 136, 0.849);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.231);
@@ -27,7 +27,7 @@ body{
   flex-direction: column;
   margin: 30px;
 }
-input{
+input,select{
   padding: 10px 10px 10px 20px;
   margin: 8px;
   width: 300px;
@@ -38,7 +38,8 @@ input{
   color: grey;
   
 }
-input:focus{
+
+input:focus,select:focus{
   color: black;
 }
 .button{
@@ -54,8 +55,7 @@ input:focus{
 }
 .error{
   color: rgb(204, 249, 4);
-  font-size: 17px;
+  font-size: 15px;
   margin-left: 25px;
   width: 250px;
-  word-wrap: break-word;
 }
